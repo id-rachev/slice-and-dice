@@ -1,0 +1,87 @@
+﻿html, body, div, header, section, article, img, 
+ul,li, a, footer, nav, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px 'Arial', 'Verdana', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#wrapper {
+    width: 778px;
+    background-color: #e1ebf7;
+    padding: 1px;
+}
+
+#head {
+    height: 47px;
+    background-color: #fff;
+    background-image: url(images/head-line.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#site-logo {
+    width: 120px;
+    height: 100%;
+    background-color: #59518c;
+    text-align: center;
+}
+#site-logo a {
+    color: #fff;
+    padding: 5px 20px;
+    line-height: 47px;
+    width: 120px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#side-nav {
+    width: 120px;
+    background-color: #f2f3f7;
+    float: left;
+}
+
+#side-nav h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #424284;
+}
+
+#side-nav ul {
+    font-size: 0.8em;
+    margin-left: 10px;
+    list-style-position:inside;
+}
+
+#side-nav ul a {
+    color: #069;
+}
+
+#main-nav {
+    height: 25px;
+    line-height: 25px;
+    background-color: #e6def5;
+}
+
+#main-nav h4 {
+    margin-left: 28px;
+    float: left;
+    color: #6d64a3;
+}
+
+#main-nav ul li {
+    display: inline-block;
+}
+
+#main-nav ul li a {
+    color: #00c;
+}

@@ -1,0 +1,215 @@
+﻿html, body, header, nav, h1, h2, h3, ul, li, a, section, article, div, span, img {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url('OpenSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url('OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url('OpenSans-Light.ttf') format('truetype');
+}
+
+body {
+    font: 62.5% 'OpenSans-Regular', Arial, Gadget, sans-serif;
+    color: #555e58;
+}
+
+a {
+    text-decoration: none;
+}
+
+header#main-head {
+    background: #73afcb; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2993c4', endColorstr='#8cb6cc'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#2993c4), to(#8cb6cc)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #2993c4, #8cb6cc); /* for firefox 3.6+ */
+    position: relative;
+}
+
+div.section-wrap {
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1#company-logo {
+    font: 4.8em 'Myriad Pro', Arial, Gadget, sans-serif;
+    letter-spacing: -3px;
+    float: left;
+    margin-top: 40px;
+}
+
+    h1#company-logo a {
+        color: #fff;
+        -webkit-text-shadow: 1px 1px 2px #016492;
+        text-shadow: 1px 1px 2px #016492;
+    }
+
+ul#navigation {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    padding-top: 60px;
+}
+
+    ul#navigation li.nav-items {
+        float: left;
+        padding: 5px 10px 5px 10px;
+    }
+
+        ul#navigation li.nav-items a {
+            font: 1.4em 'OpenSans-Semibold', Arial, Gadget, sans-serif;
+            color: #fff;
+            -webkit-text-shadow: 1px 1px 2px #016492;
+            text-shadow: 1px 1px 2px #016492;
+        }
+
+        ul#navigation li.nav-items:hover {
+            border-radius: 5px;
+            -webkit-box-shadow: 0 0 5px 2px #446f83 inset;
+            box-shadow: 0 0 5px 2px #446f83 inset;
+            background-color: #186387;
+        }
+
+#slider {
+    text-align: center;
+    clear: both;
+    padding-top: 60px;
+}
+
+    #slider h2 {
+        font: 7.2em 'OpenSans-ExtraBold', Arial, Gadget, sans-serif;
+        letter-spacing: -3px;
+        color: #fff;
+        -webkit-text-shadow: 1px 1px 2px #016492;
+        text-shadow: 1px 1px 2px #016492;
+    }
+
+        #slider h2 span {
+            font-family: 'OpenSans-Light', Arial, Gadget, sans-serif;
+        }
+
+    #slider h3 {
+        font: 3.6em 'OpenSans-Light', Arial, Gadget, sans-serif;
+        color: #fff;
+        letter-spacing: -2px;
+        -webkit-text-shadow: 1px 1px 2px #016492;
+        text-shadow: 1px 1px 2px #016492;
+    }
+
+    #slider img.slide-images {
+        margin-top: 40px;
+        margin-bottom: -3px;
+    }
+
+    #slider button.slide-btns {
+        position: absolute;
+        top: 310px;
+        border: none;
+        background: none;
+    }
+
+        #slider button.slide-btns.left {
+            left: 135px;
+        }
+
+        #slider button.slide-btns.right {
+            right: 135px;
+        }
+
+@media screen and (max-width:960px) {
+    div.section-wrap {
+        width: 960px;
+        padding: 0 20px 0 20px;
+    }
+
+    #slider button.slide-btns.left {
+        left: 20px;
+    }
+
+    #slider button.slide-btns.right {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    div.section-wrap {
+        width: 760px;
+    }
+
+    ul#navigation li.nav-items:last-child,
+    ul#navigation li.nav-items:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    #slider h2 {
+        font-size: 6em;
+    }
+
+    #slider h3 {
+        font-size: 3em;
+    }
+
+    #slider img.slide-images {
+        margin-top: 60px;
+        width: 728px;
+    }
+
+    #slider button.slide-btns img {
+        width: 33px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    div.section-wrap {
+        width: 480px;
+        text-align: center;
+    }
+
+    ul#navigation {
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+
+        ul#navigation li.nav-items {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 320px;
+            text-align: center;
+        }
+
+            ul#navigation li.nav-items a {
+                font-size: 3em;
+            }
+
+    #slider h2 {
+        font-size: 4.8em;
+    }
+
+    #slider h3 {
+        font-size: 2.4em;
+    }
+
+    #slider img.slide-images {
+        margin-top: 30px;
+        width: 440px;
+    }
+
+    #slider button.slide-btns img {
+        width: 23px;
+    }
+}

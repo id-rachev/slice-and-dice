@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="bg" xml:lang="bg" dir="ltr">
+<head>
+    <title>Упражнение 1 - оптимизация на HTML и CSS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        #div-tabs {
+            padding: 0 10px;
+            border-bottom: 1px solid #cccccc;
+            position: relative;
+            z-index: 1;
+            min-height: 0;
+            _zoom: 1;
+        }
+
+            #div-tabs:after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+
+        #ul-tabs {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .list-tab {
+            float: left;
+            display: inline;
+            font: 14px sans-serif;
+        }
+
+        .tab-link {
+            margin-right: 10px;
+            padding: 2px 10px;
+            display: block;
+            position: relative;
+            bottom: -1px;
+            z-index: 2;
+            color: #888888;
+            background-color: #f0f0f0;
+            border: 1px solid #cccccc;
+            text-decoration: none;
+        }
+
+            .tab-link:hover {
+                background-color: #fafafa;
+            }
+
+        .current-tab {
+            color: #000000;
+            background-color: #ffffff;
+            border-bottom-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div id="div-tabs">
+        <ul id="ul-tabs">
+            <li class="list-tab">
+                <a href="#" class="tab-link current-tab">Link 1</a>
+            </li>
+            <li class="list-tab">
+                <a href="#" class="tab-link">Link 2</a>
+            </li>
+            <li class="list-tab">
+                <a href="#" class="tab-link">Link 3</a>
+            </li>
+            <li class="list-tab">
+                <a href="#" class="tab-link">Link 4</a>
+            </li>
+            <li class="list-tab">
+                <a href="#" class="tab-link">Link 5</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+﻿body {
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+
+    body {
+        font-size: 0.875em;
+    }
+
+    #main-header {
+        height: 586px;
+    }
+
+    #main-nav {
+        width: 100%;
+    }
+
+    #main-menu li a {
+        margin-left: 10px;
+    }
+
+    .secondary-menu-item {
+        display: none;
+    }
+    
+
+    h2 {
+        margin-top: 105px;
+        /*font-size: 2.888em;*/
+    }
+
+    h3 {
+        /*font-size: 1.575em;*/
+    }
+
+    #figure {
+       top: 365px;
+       left: 1%;
+    }
+
+    #figure1 { width: 323px; height: 45px; }
+    #figure2 {  width: 563px;  height: 45px; }
+    #figure3 {  width: 723px; height: 131px; }
+
+    .content {
+        width: 92%;
+    }
+
+    table {
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 371px) and (max-width: 500px) {
+
+     #main-header {
+        height: 640px;
+    }
+
+
+    #main-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    #figure {
+        display: none;
+    }
+
+    h2 {
+        margin-top: 105px;
+        font-size: 2.888em;
+    }
+
+    h3 {
+        font-size: 1.575em;
+    }
+
+    .arrow {        
+        top: 477px;
+        left: 24px;
+        
+    }
+
+    
+     .content {
+        width: 92%;
+        padding-left: 20px;
+    }
+
+     .content article {
+         display: block;
+         background: none;
+         float: none;
+         width: 80%;
+         padding-top: 20px;
+     }
+
+    table {
+        width: 40%;
+    }
+
+    .quote {
+        font-size: 0.8em;
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+
+    
+.quote:first-line {
+    font-size: 1.2em;
+}
+
+    .right-arrow {
+        right: 24px;
+    left: auto;
+    }
+
+    #main-menu li {
+        display: block;
+        margin-left: 20px;
+        padding: 10px 15px;
+        position: relative;
+        behavior: url('css/PIE/PIE.htc');
+        border-radius: 10px;
+        background: #04638e;
+        box-shadow: 0 0 7px #7e7e7e inset;
+        font-family: Open Sans Extrabold;
+        width: 60%;
+        text-align:center;
+        margin: 0 auto;
+    }
+
+     #main-menu {
+         display: block;
+         
+     }
+
+     #plans table td {
+         padding: 0.5em;
+     }
+
+     #footer .content {
+         padding: 0;
+     }
+
+     #work .circle {
+         width: 7em;
+         height: 7em;
+         display: inline-block;
+     }
+
+     #work .project-content {
+         display: none;
+     }
+
+     .button-big {
+         font-size: 12px;
+     }
+}

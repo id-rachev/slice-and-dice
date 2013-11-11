@@ -1,0 +1,373 @@
+html, body, h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: none;
+}
+
+body {
+	background: none;
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family: "Open Sans Extrabold";
+	src: url("Open_Sans_Extrabold/OpenSans-ExtraBold.eot?") format("eot"),url("Open_Sans_Extrabold/OpenSans-ExtraBold.woff") format("woff"),url("Open_Sans_Extrabold/OpenSans-ExtraBold.ttf") format("truetype"),url("Open_Sans_Extrabold/OpenSans-ExtraBold.svg#OpenSans-Extrabold") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family: "Open Sans Light";
+	src: url("Open_Sans_Light/OpenSans-Light.eot?") format("eot"),url("Open_Sans_Light/OpenSans-Light.woff") format("woff"),url("Open_Sans_Light/OpenSans-Light.ttf") format("truetype"),url("Open_Sans_Light/OpenSans-Light.svg#OpenSans-Light") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+#warp {
+	width: 960px;
+	margin: auto;
+}
+
+.self-clear, #header, #first, #second, #textLeft, #text, #third, #fourth, #fifth, #sixth, #footer, h1, h2 {
+	zoom: 1;
+}
+
+.self-clear:after, #header:after, #first:after, #second:after, #textLeft:after, #text:after, #third:after, #fourth:after, #fifth:after, #sixth:after, #footer:after, h1:after, h2:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#header {
+	padding-top: 25px;
+}
+
+#first {
+	min-height: 660px;
+	background: url(bgr.jpg) repeat-x;
+	color: white;
+	text-align: center;
+	text-shadow: 3px 3px grey;
+}
+
+#first h1 {
+	margin-top: 95px;
+	font-size: 50pt;
+	font-family: "Open Sans Extrabold";
+}
+
+#first h1 > span {
+	font-family: "Open Sans Light";
+}
+
+#first h2 {
+	font-family: "Open Sans Light";
+	font-size: 22pt;
+}
+
+#header nav ul li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	font-size: 12pt;
+	font-family: "Open Sans Light";
+}
+
+#header nav ul li:hover {
+	background: rgb(21, 100, 133);
+	border: 3px solid rgb(65, 104, 119);
+	border-radius: 7px;
+	font-weight: bold;
+}
+
+#logo {
+	font-size: 33pt;
+	font-family: Myriad Pro;
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+#img1 {
+	background: no-repeat;
+	height: 300px;
+	width: 960px;
+	padding-top: 45px;
+}	
+
+#left-arr {
+	float: left;
+	padding-left: 100px;
+}
+
+#right-arr {
+	float: right;
+	padding-right: 100px;
+}
+
+#second {
+	min-height: 785px;
+}
+
+#textLeft {
+	margin-left: 425px;
+	}
+
+#text, #textLeft {
+	width: 270px;
+	float: left;
+	margin-right: 60px;
+}
+
+#text img, #textLeft img {
+	padding-top: 75px;
+	padding-left: 70px;
+	padding-bottom: 10px;
+}
+
+#text h3, #textLeft h3 {
+	padding-bottom: 7px;
+	color: rgb(186, 186, 186);
+	font-family: "Open Sans Light";
+	font-size: 16pt;
+}
+
+#text div, #textLeft div {
+	font-size: 12pt;
+	font-family: "Open Sans Light";
+	overflow: hidden;
+	height: 133px;
+}
+
+#text button, #textLeft button {
+	font-family: "Open Sans Light";
+	color: rgb(156, 156, 156);
+	border-color: rgb(222, 222, 222);
+	background-color: rgb(249, 249, 249);
+	border-radius: 7px;
+	float: right;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+#text button:hover, #textLeft button:hover {
+	color: rgb(234, 255, 255);
+	border-color: rgb(65, 117, 139);
+	background-color: rgb(36, 111, 150);
+}
+
+#second h2 {
+	font-family: "Open Sans Extrabold";
+	font-size: 20pt;
+	text-align: center;
+	float: left;
+	margin-top: 85px;
+	margin-left: 425px;
+	color: rgb(81, 90, 85);
+	width: 960px;
+}
+
+#second p {
+	margin: 5px;
+	font-family: "Open Sans Light";
+	font-size: 15pt;
+	text-align: center;
+	float: left;
+	margin-left: 425px;
+	padding-left: 50px;
+	color: rgb(89, 91, 90);
+	width: 850px;
+}
+	
+#img2 {
+	float: left;
+	padding-left: 5px;
+}
+
+#img3 {
+	float: right;
+	padding-right: 5px;
+}	
+
+#third {
+	height: 870px;
+	background-color: rgb(130, 153, 167);
+	text-shadow: 2px 2px grey;
+}
+
+#third h1 {
+	padding-top: 80px;
+	font-size: 50pt;
+	font-family: "Open Sans Extrabold";
+	text-align: center;
+	color: white;
+}
+
+#third h1 > span {
+	font-family: "Open Sans Light";
+	color: white;
+}
+
+#third h2 {
+	font-family: "Open Sans Light";
+	font-size: 22pt;
+	text-align: center;
+	color: white;
+}
+
+#anTextLeft {
+	margin-left: 425px;
+	}
+
+#anText, #anTextLeft {
+	width: 280px;
+	float: left;
+	margin-right: 60px;
+}
+
+#anText img, #anTextLeft img {
+	padding-top: 75px;
+	padding-left: 70px;
+	padding-bottom: 10px;
+}
+
+#anText h3, #anTextLeft h3 {
+	color: white;
+	font-family: "Open Sans Extrabold";
+	font-size: 15pt;
+}
+
+#anText p, #anTextLeft p {
+	color: rgb(174, 191, 173);
+	font-family: "Open Sans Light";
+	font-size: 13pt;
+}	
+
+#anText div, #anTextLeft div {
+	font-size: 14pt;
+	font-family: "Open Sans Light";
+	overflow: hidden;
+	height: 135px;
+	color: white;
+}
+
+#anText button, #anTextLeft button {
+	font-family: "Open Sans Light";
+	color: rgb(69, 78, 73);
+	border-color: rgb(69, 78, 73);
+	background-color: rgb(105, 114, 109);
+	border-radius: 7px;
+	float: right;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+#anText button:hover, #anTextLeft button:hover {
+	color: rgb(234, 255, 255);
+	border-color: rgb(65, 117, 139);
+	background-color: rgb(36, 111, 150);
+}
+
+#main {
+	font-family: "Open Sans Light";
+	color: white;
+	font-size: 23pt;
+	border-color: rgb(69, 78, 73);
+	background-color: rgb(105, 114, 109);
+	border-radius: 10px;
+	float: left;
+	padding: 17px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 70px;
+	margin-left: 740px;
+}
+
+#fourth {
+	height: 790px;
+	text-shadow: 2px 2px grey;
+	background-color: rgb(245, 245, 245);
+}
+
+#fourth h1 {
+	padding-top: 80px;
+	font-size: 50pt;
+	font-family: "Open Sans Extrabold";
+	text-align: center;
+	color: rgb(98, 107, 102);
+}
+
+#fourth h1 > span {
+	font-family: "Open Sans Light";
+	color: rgb(98, 107, 102);
+}
+
+#fourth h2 {
+	font-family: "Open Sans Light";
+	font-size: 22pt;
+	text-align: center;
+	color: rgb(98, 107, 102);
+}
+
+#jpg4 {
+	padding-left: 425px;
+	padding-top: 55px;
+}
+
+#more {
+	font-family: "Open Sans Light";
+	color: rgb(98, 107, 102);
+	font-size: 23pt;
+	border-color: 2px solid rgb(98, 107, 102);
+	background-color: white;
+	border-radius: 10px;
+	float: left;
+	padding: 17px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 70px;
+	margin-left: 750px;
+}
+
+#fifth {
+	height: 980px;
+	background-color: rgb(130, 153, 167);
+	text-shadow: 2px 2px grey;
+}
+
+#fifth h1 {
+	padding-top: 80px;
+	font-size: 50pt;
+	font-family: "Open Sans Extrabold";
+	text-align: center;
+	color: white;
+}
+
+#fifth h1 > span {
+	font-family: "Open Sans Light";
+	color: white;
+}
+
+#fifth h2 {
+	font-family: "Open Sans Light";
+	font-size: 22pt;
+	text-align: center;
+	color: white;
+}
+
+#jpg5 {
+	padding-left: 415px;
+	padding-top: 15px;
+}
+
+#sixth {
+	height: 710px;
+	text-shadow: 2px 2px grey;
+	background-color: rgb(245, 245, 245);
+}

@@ -1,0 +1,576 @@
+@font-face {
+    font-weight: normal;
+    font-family: Open Sans Extrabold;
+    src: url('OpenSans-Extrabold.ttf');
+}
+
+@font-face {
+    font-weight: normal;
+    font-family: Open Sans Extrabold;
+    src: url('OpenSans-Extrabold.ttf');
+}
+
+@font-face {
+    font-weight: normal;
+    font-family: Open Sans Light;
+    src: url('OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-weight: normal;
+    font-size: 100%;
+    font-family: Open Sans Regular;
+    src: url('OpenSans-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+}
+
+
+section {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#home-page {
+    padding: 0;
+}
+
+
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/***************************************
+*	 	 	HOME PAGE HEADER	       	*
+***************************************/
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-top: 52px;
+    color: #fff;
+    -webkit-text-shadow: 1px 1px 1px #016492;
+    text-shadow: 1px 1px 1px #016492;
+    letter-spacing: -3px;
+    font-weight: lighter;
+    font-size: 3em;
+    font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+h2 {
+    margin: 1em 0 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    -webkit-text-shadow: 1px 1px 1px #016492;
+    text-shadow: 1px 1px 1px #016492;
+    letter-spacing: -0.07em;
+    font-size: 4.500em;
+    font-family: Open Sans Extrabold;
+    line-height: 1em;
+}
+
+.text-decor {
+    font-weight: lighter;
+    font-family: Open Sans Light;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    -webkit-text-shadow: 1px 1px 1px #016492;
+    text-shadow: 1px 1px 1px #016492;
+    letter-spacing: -0.07em;
+    font-size: 2.250em;
+    font-family: Open Sans Light;
+}
+
+#main-header {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 660px;
+    background-image: url(../img/main-nav-bg.gif);
+    background-repeat: repeat-x;
+}
+
+#main-nav {
+    margin: 0 auto;
+    width: 60.37735849056604%;
+}
+
+#main-menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+    #main-menu li {
+        display: inline;
+    }
+
+        #main-menu li a {
+            margin-left: 30px;
+            color: #fff;
+            -webkit-text-shadow: 1px 1px 1px #016492;
+            text-shadow: 1px 1px 1px #016492;
+            font-size: 0.875em;
+            font-family: Open Sans Semibold;
+        }
+
+            #main-menu li a:hover {
+                margin-left: 20px;
+                padding: 10px 15px;
+                position: relative;
+                behavior: url('css/PIE/PIE.htc');
+                border-radius: 10px;
+                background: #04638e;
+                -webkit-box-shadow: 0 0 7px #7e7e7e inset;
+                box-shadow: 0 0 7px #7e7e7e inset;
+                font-family: Open Sans Extrabold;
+            }
+
+.arrow {
+    position: absolute;
+    top: 309px;
+    left: 136px;
+    width: 44px;
+    height: 44px;
+    background-image: url(../img/arrows-sprite.png);
+    background-repeat: no-repeat;
+
+}
+
+.left-arrow {   
+    background-position: 0 0; 
+
+}
+
+.right-arrow {
+    right: 94px;
+    left: auto;
+    background-position: -47px 0;
+}
+
+.content {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 39px;
+    width: 60.37735849056604%;
+    background: #fff;
+    font-size: 0.875em;
+    line-height: 1.5em;    
+}
+
+    .content article {
+        display: inline-block;
+        float: left;
+        margin-left: 3.859375%;
+        padding-top: 130px;
+        width: 27.34375%;
+        background-image: url(../img/quote.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+    
+h4 {
+    margin: 0;
+    padding: 20px 0;
+    color: #a3a2a2;
+    font-size: 1.5em;
+    font-family: Open Sans Light;
+}
+
+.button {
+    behavior: url('css/PIE/PIE.htc');
+    position: relative;
+    display: block;
+    float: right;
+    clear: both;
+    margin: 15px;
+    height: 32px;
+    border: 1px solid #e0dddd;
+    border-radius: 5px;
+    background: #fcfcfc;
+    background: -moz-linear-gradient(top, #fcfcfc 0%, #f9f9f9 3%, #f8f8f8 13%, #f2f2f2 100%);
+    background: -ms-linear-gradient(top, #fcfcfc 0%,#f9f9f9 3%,#f8f8f8 13%,#f2f2f2 100%);
+    background: -o-linear-gradient(top, #fcfcfc 0%,#f9f9f9 3%,#f8f8f8 13%,#f2f2f2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(3%,#f9f9f9), color-stop(13%,#f8f8f8), color-stop(100%,#f2f2f2));
+    background: -webkit-linear-gradient(top, #fcfcfc 0%,#f9f9f9 3%,#f8f8f8 13%,#f2f2f2 100%);
+    background: linear-gradient(to bottom, #fcfcfc 0%,#f9f9f9 3%,#f8f8f8 13%,#f2f2f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f2f2f2',GradientType=0 );
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.13);
+    color: #9a9999;
+    -webkit-text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);    
+
+}
+
+.quote {
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 87.890625%;
+    color: #555e58;
+    text-align: center;
+    letter-spacing: -0.07em;
+    font-size: 1.125em;
+    font-family: Open Sans Regular;
+}
+
+
+    .quote:first-line {
+        font-size: 1.5em;
+        font-family: Open Sans Extrabold;
+    }
+
+
+/***************************************
+*	 	 	NEWS & UPDATES	       	*
+***************************************/
+
+#news-updates h2, h3 {
+    -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+#news-updates {
+    background: #829aa7;
+}
+
+    #news-updates .content {
+        padding-bottom: 3.71875%;
+        background: #829aa7;
+    }
+
+        #news-updates .content article {
+            padding-top: 11.08203125%;/* image height + 10 in % */
+            background: url(../img/circle.png) center top no-repeat;
+            color: #fff;
+            -webkit-text-shadow: 1px 1px 1px #464c48;
+            text-shadow: 1px 1px 1px #464c48;            
+        }
+
+    #news-updates h4 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        -webkit-text-shadow: 1px 1px 1px #464c48;
+        text-shadow: 1px 1px 1px #464c48;
+        font-size: 1em;
+        font-family: Open Sans Extrabold;
+    }
+
+    #news-updates .metadata {
+        margin: 0;
+        padding: 0;
+        color: #b0bab4;
+        -webkit-text-shadow: 1px 1px 1px #464c48;
+        text-shadow: 1px 1px 1px #464c48;
+        font-size: 0.750em;
+        line-height: 2em;
+    }
+
+    #news-updates .button {
+        border: 1px solid #535955;
+        background: #69736d;
+        background: -moz-linear-gradient(top, #69736d 0%, #636b66 100%);
+        background: -ms-linear-gradient(top, #69736d 0%,#636b66 100%);
+        background: -o-linear-gradient(top, #69736d 0%,#636b66 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#69736d), color-stop(100%,#636b66));
+        background: -webkit-linear-gradient(top, #69736d 0%,#636b66 100%);
+        background: linear-gradient(to bottom, #69736d 0%,#636b66 100%);
+        -webkit-box-shadow: 0 1px 0 #77837c inset;
+        box-shadow: 0 1px 0 #77837c inset;
+        color: #3d433f;
+        -webkit-text-shadow: 1px 1px 0px rgba(118, 131, 123, 1);
+        text-shadow: 1px 1px 0px rgba(118, 131, 123, 1);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69736d', endColorstr='#636b66',GradientType=0 );
+    }
+
+    .button-big {
+        float: none;
+        margin: 0 auto;
+        padding: 1.46484375% 0;
+        width: 33.0078125%;
+        height: auto;
+        color: #fff;
+        -webkit-text-shadow: 1px 1px 1px rgba(39, 39, 39, 1);
+        text-shadow: 1px 1px 1px rgba(39, 39, 39, 1);
+        font-size: 1.875em;
+    }
+
+#work .content {
+    text-align: center;
+}
+
+#work h2, h3 {
+    color: #636b66;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+#work .circle {
+    behavior: url(css/PIE/PIE.htc);
+    position: relative;
+    padding-top: 0;
+    width: 15.938em;
+    height: 15.938em;
+    border-radius: 100%;
+    background: #d4d4d4;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5) inset;
+    float: none;
+}
+
+    #work .circle:hover {
+        background: #eaeaea;
+        box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3) inset;
+    }
+
+#work .project-content {
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    color: #4a524d;
+    text-align: center;
+    -webkit-text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+
+#work .metadata {
+    margin: 0;
+    padding: 0;
+    font-size: 0.875em;
+}
+
+#work .project-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125em;
+    font-family: Open Sans Extrabold;
+}
+
+#work .project-content .button {
+    float: none;
+    margin: 10px auto;
+    background: #f9f9f9;
+    background: -moz-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
+    background: -ms-linear-gradient(top, #f9f9f9 0%,#f2f2f2 100%);
+    background: -o-linear-gradient(top, #f9f9f9 0%,#f2f2f2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#f2f2f2));
+    background: -webkit-linear-gradient(top, #f9f9f9 0%,#f2f2f2 100%);
+    background: linear-gradient(to bottom, #f9f9f9 0%,#f2f2f2 100%);
+    font-family: Open Sans Regular;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f2f2f2',GradientType=0 );    
+}
+
+
+#plans {
+    background: #829aa7;
+}
+
+    #plans table {
+        margin: 2% auto;
+        box-shadow: 0 0 0 1px #4a5c69, 0 0 0 2px #334049;
+        color: #fff;
+        -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+        /*border: 1px solid #334049;
+    box-shadow: 1px 1px 0  #fff inset, -1px -1px 0  #fff inset;*/
+    }
+
+        #plans table tr {
+            border-bottom: 1px solid #313d46;
+            background: #465662;
+            box-shadow: 0 1px 0 #546876;
+        }
+
+        #plans table td {
+            padding: 1.5em;
+        }
+
+    #plans .yep-nope-sprite:before {
+        display: inline-block;
+        width: 23px;
+        height: 20px;
+        background-image: url(../img/yep-nope-sprite.png);
+        background-repeat: no-repeat;
+        content: "\00a0";
+        margin: 0 10px;
+    }
+
+    #plans .yep-sprite:before {
+        background-position: 0 0;
+    }
+
+    #plans .nope-sprite:before {
+        background-position: 0 -22px;
+    }
+
+    #plans table thead tr {
+        background: #404f5a;
+        background: -moz-linear-gradient(top, #404f5a 0%, #3c4a54 100%);
+        background: -ms-linear-gradient(top, #404f5a 0%,#3c4a54 100%);
+        background: -o-linear-gradient(top, #404f5a 0%,#3c4a54 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#404f5a), color-stop(100%,#3c4a54));
+        background: -webkit-linear-gradient(top, #404f5a 0%,#3c4a54 100%);
+        background: linear-gradient(to bottom, #404f5a 0%,#3c4a54 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404f5a', endColorstr='#3c4a54',GradientType=0 );
+        text-align: center;
+
+        font-family: Open Sans Extrabold;
+        font-size: 1.375em;
+    }
+
+    #plans table tfoot tr {
+        border-bottom: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        text-align: center;
+        font-size: 3.313em;
+        font-family: Open Sans Light;
+    }
+
+        #plans table tfoot tr td {
+            padding: 0.5em;
+        }
+
+        #plans .button-big {
+            background: url(../img/big-btn-bg.gif) repeat-x;
+            height: 62px;
+            padding-top: 0.5em;
+            border-color: #2d363d;
+        }
+
+#footer {
+    background: #f5f5f5;
+    overflow: hidden;
+}
+
+    #footer .content {        
+        background: #f5f5f5;
+        
+        
+    }
+
+    #footer article {
+        padding-top: 0;
+        background: none;
+        color: #555e58;
+        -webkit-text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+        float: none;
+    }
+
+    #footer .footer-logo {
+        color: #555e58;
+        -webkit-text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+        font-size: 2.063em;
+    }
+
+    #footer .metadata {
+        color: #bfbfbf;
+        -webkit-text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+        font-style: italic;
+    }
+
+    #footer h4 {
+        color: #555e58;
+        -webkit-text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+        font-size: 1.125em;
+        font-family: Open Sans Extrabold;
+    }
+
+
+    #footer hr {
+        height: 1px;
+        border: none;
+        background-color: #e4e4e4;
+        -webkit-box-shadow: 0 1px 0 #fff;
+        box-shadow: 0 1px 0 #fff;
+    }
+
+
+#figure {
+    position: absolute;
+    top: 364px;
+    left: 18%;
+    
+}
+
+#figure1 {
+    behavior: url('css/PIE/PIE.htc');
+    position: relative;
+    margin: 0 auto;
+    width: 433px;
+    height: 60px;
+    border-radius: 5px 5px 0 0;
+    background: #7c93b8;
+}
+
+#figure2 {
+    behavior: url('css/PIE/PIE.htc');
+    position: relative;
+    margin: 0 auto;
+    width: 533px;
+    height: 60px;
+    border-radius: 5px 5px 0 0;
+    background: #7c93b8;
+}
+
+#figure3 {
+    behavior: url('css/PIE/PIE.htc');
+    position: relative;
+    margin: 0 auto;
+    width: 933px;
+    height: 175px;
+    border-radius: 5px 5px 0 0;
+    background: #7c93b8;
+}
+
+.footer-links {
+    display: block;
+    position: relative;
+    left: 60%;
+    right: 0;
+    float: right;
+    background: #f5f5f5;
+    color: #555e58;
+    -webkit-text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    font-size: 12px;
+        
+    font-weight: bold;        
+}

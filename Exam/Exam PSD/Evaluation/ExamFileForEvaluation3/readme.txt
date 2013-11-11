@@ -1,0 +1,1 @@
+for best view - use google chrome

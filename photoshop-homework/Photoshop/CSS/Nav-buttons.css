@@ -1,0 +1,51 @@
+﻿div#nav {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.btns, .links {
+    margin: 5px;
+    padding: 0 20px;
+    height: 47px;
+    border: 0;
+    border-radius: 23px;
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0, .20);
+    box-shadow: 5px 5px 5px rgba(0,0,0, .20);
+    background: none;
+}
+
+.links {
+    display: inline-block;
+}
+
+a.text {
+    text-decoration: none;
+}
+
+.text {
+    font: 25px Arial, serif;
+    color: black;
+    height: 47px;
+    background: url(images/btn-center.png);
+    display: inline-block;
+    line-height: 47px;
+}
+
+.left, .right {
+    width: 20px;
+    height: 47px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.left {
+    float: left;
+    margin-left: -20px;
+    background-image: url(images/btn-left.png);
+}
+
+.right {
+    float: right;
+    margin-right: -20px;
+    background-image: url(images/btn-right.png);
+}

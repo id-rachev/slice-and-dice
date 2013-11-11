@@ -1,0 +1,59 @@
+﻿span, img {
+    margin: 0;
+    padding: 0;
+}
+
+    span.img-wrapper {
+        display: inline-block;
+        margin: 5px;
+        position: relative;
+    }
+
+.img-wrapper img {
+    float: left;
+}
+
+.img-wrapper .shadow-top-right {
+    background-image: url(images/top-right-shadow.png);
+    height: 8px;
+    width: 7px;
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+
+.img-wrapper .shadow-right {
+    background: url(images/right-shadow.png);
+    width: 7px;
+    position: absolute;
+    bottom: 0;
+    right: -7px;
+    top: 8px;
+}
+
+.img-wrapper .shadow-bottom-left {
+    background-image: url(images/bottom-left-shadow.png);
+    height: 7px;
+    width: 6px;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+}
+
+.img-wrapper .shadow-bottom {
+    background: url(images/bottom-shadow.png);
+    height: 7px;
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    left: 6px;
+}
+
+.img-wrapper .shadow-bottom-right {
+    background-image: url(images/bottom-right-shadow.png);
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    bottom: -7px;
+    right: -7px;
+}
